@@ -18,8 +18,9 @@
         </div>
         <div class="middle"></div>
         <div class="lower">
+            
             <div class="button-container">
-                <button class="bookButton">Add New Book</button>
+                <button class="add-new-book-button">Add New Book</button>
             </div>
         </div>
     </div>
@@ -27,4 +28,30 @@
     
 </body>
 <script src="main.js"></script>
+<template>
+    <div class="book-container">
+        <div class="textTop">TITLE</div>
+        <div class="bookTexts" id="title"></div>
+        <div class="textTop">AUTHOR</div>
+        <div class="bookTexts" id="author"></div>
+        <div class="textTop">PAGES</div>
+        <div class="bookTexts" id="pages"></div>
+        <div class="buttons-container">
+            <button class="book-button">Wasnt Read</button>
+            <button class="book-button">Edit Book</button>
+            <button class="book-button">Delete Book</button>
+        </div>
+    </div>
+</template>
+<template id="edit-template">
+        <div class="textTop">TITLE</div>
+        <input class="bookTexts" id="title" required></input>
+        <div class="textTop">AUTHOR</div>
+        <input class="bookTexts" id="author" required></input>
+        <div class="textTop">PAGES</div>
+        <input class="bookTexts" id="pages" required></input>
+        <div class="buttons-container">
+            <button class="book-button" id="save-button">Save Book</button>
+        </div>
+</template>
 </html>

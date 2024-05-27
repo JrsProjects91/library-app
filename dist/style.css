@@ -37,7 +37,7 @@ body {
 
 }
 
-.bookclass {
+.book-container {
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
@@ -54,7 +54,7 @@ body {
     margin-top: 15px;
 }
 
-.buttonDiv {
+.buttons-container {
     display: flex;
     flex-direction: row;
     font-size: 10px;
@@ -98,7 +98,7 @@ button {
     font-style: normal;
 }
 
-.deleteButton, .toggleButton {
+.deleteButton, .toggleButton, .editButton, .book-button {
     box-shadow: none;
     font-size: 10px;
 }
